@@ -1,0 +1,19 @@
+INFO [2020-12-26 03:31:31] control.CriarCommand(execute:21):	Criou o diagrama: Diagrama1
+INFO [2020-12-26 03:31:31] control.CriarCommand(execute:22):	Novo estado do projeto: [Diagrama1]
+INFO [2020-12-26 03:31:31] control.CriarCommand(execute:29):	Criou o elemento: Elemento1
+INFO [2020-12-26 03:31:31] control.CriarCommand(execute:30):	Novo estado do projeto: [Diagrama1, Elemento1]
+INFO [2020-12-26 03:31:31] control.CriarCommand(execute:29):	Criou o elemento: Elemento2
+INFO [2020-12-26 03:31:31] control.CriarCommand(execute:30):	Novo estado do projeto: [Diagrama1, Elemento1, Elemento2]
+INFO [2020-12-26 03:31:31] control.CriarCommand(execute:39):	Criou o relacionamento: Relacionamento1 (Elemento1 - Elemento2)
+INFO [2020-12-26 03:31:31] control.CriarCommand(execute:40):	Novo estado do projeto: [Diagrama1, Elemento1, Elemento2, Relacionamento1 (Elemento1 - Elemento2)]
+INFO [2020-12-26 03:31:31] control.SalvarCommand(execute:23):	Salvou o diagrama: Diagrama1
+INFO [2020-12-26 03:31:31] control.SalvarCommand(undo:36):	Desfez a última ação de salvar
+INFO [2020-12-26 03:31:31] control.CriarCommand(undo:52):	Desfez a última ação de criar
+INFO [2020-12-26 03:31:31] control.CriarCommand(undo:53):	Novo estado do projeto: [Diagrama1, Elemento1, Elemento2]
+INFO [2020-12-26 03:31:31] control.CriarCommand(undo:52):	Desfez a última ação de criar
+INFO [2020-12-26 03:31:31] control.CriarCommand(undo:53):	Novo estado do projeto: [Diagrama1, Elemento1]
+INFO [2020-12-26 03:31:31] control.CriarCommand(undo:52):	Desfez a última ação de criar
+INFO [2020-12-26 03:31:31] control.CriarCommand(undo:53):	Novo estado do projeto: [Diagrama1]
+INFO [2020-12-26 03:31:31] control.CriarCommand(undo:52):	Desfez a última ação de criar
+INFO [2020-12-26 03:31:31] control.CriarCommand(undo:53):	Novo estado do projeto: []
+INFO [2020-12-26 03:31:31] control.Invoker(executarComando:56):	Não há ações recentes para serem desfeitas
